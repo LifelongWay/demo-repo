@@ -27,7 +27,10 @@ Areas of file: modified | staged | committed
 
 2) revert commit 
 
-
+// it undoes everything done in reverted commit
+// then pushes commit "Revert <commit-id>"
+// simply commits head with undone commit of <commit-id>
+// NOTE: we still have access to undone commit ! 
 
 3) reset commit 
 // takes you PERMANENTLY back in time to a particular commit
