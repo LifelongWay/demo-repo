@@ -1,0 +1,12 @@
+	# FORKING
+
+if someone has open-source repository, and you want to push update to it,
+but you don't have access for pushing to that repo, you can fork it.
+
+i.e You'll create a copy of that repo to our repo.
+
+1) Click on Fork button for doing that.
+
+then, now, we can clone it to our destop, and our staff
+
+
