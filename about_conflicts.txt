@@ -1,1 +1,13 @@
-adsfadf
+Ex: we want to add new feature, so we create a new branch for that( let's say "feature-c" branch).
+If after that, someone changed master(main) branch, while we are working in "feature-c", we are unaware of that change in master(main).
+Eventually, when we merge our "feature-c" into master => CONFLICT OBSERVED
+
+i.e master branch was edited, while we were working in "feature-c" branch
+
+error message will tell you:
+1) file ,where conflict happened
+2) ask to fix conflict, add and commit
+
+
+CONFLICT CREATING LINE!
+>>>>>>> feature-c
