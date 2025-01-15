@@ -22,3 +22,11 @@ master code. I.e you can try changing code, without affectign stable version.
 4) git branch -D <branchName> // to delete branch that's NOT MERGED
 
 5) git checkout -b <branchName> // will create branch and checkout to it simultaneously
+
+6) MERGING:
+   to merge branch <br1> into <br2>, we have to be in branch we wanna merge into.
+   in this case to merge <br1> into <br2>, we have to be in <br2>,
+   then write 
+   $git merge <br1> // now <br1> will be merged in to current branch(br2)
+
+ 
