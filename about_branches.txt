@@ -1,0 +1,21 @@
+1) master(or main) branch - is generally most stable version of your code.
+   It's generally the version that's public.
+ 
+1.1) Branches outcoming from master are needed to write new features without affecting
+master code. I.e you can try changing code, without affectign stable version.
+
+1.2) If we like new feature we wrote in another branch, outcoming from master one,
+	we will merge it to master branch, so NOW it WILL be affected(modified) publically.
+	It's called MERGE COMMIT
+
+
+## CODING
+
+
+1) git branch <branchName> 
+// will create branch with name <branchName> without moving to it
+// will copy everything from state(commit), from which you created the branch
+// so now, you can add new feature over that copied state
+
+2) git branch -a // will show all branches (* means current branch)
+3) git checkout <branchName> // will move to branch with name <branchName>
