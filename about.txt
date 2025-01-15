@@ -32,7 +32,10 @@ Areas of file: modified | staged | committed
 // simply commits head with undone commit of <commit-id>
 // NOTE: we still have access to undone commit ! 
 
-3) reset commit 
+3) reset commit <commit-id> 
 // takes you PERMANENTLY back in time to a particular commit
 // will delete all commits done later
-// used if don't need next ones
+
+// NOTE: though all commits after <commit-id> are removed,
+// they are still present in unstaged area 
+// and still editors have same data, just everything is unstaged!
