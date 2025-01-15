@@ -1,0 +1,23 @@
+1) if we DON'T already have local repo, then need to clone.
+   $ git clone <url_host>
+   NOTE: cloning already creates alias with <host_URL> to <alias = "origin"> ( talked in (3) )
+
+2) if we have ready local repo, you can push it to hosted repo
+   (NOTE: hosted-repo and local-repo names must not be the same, but it's prefferable to
+    keep them the same)
+
+# PUSHING local to host RULES
+1. first check if you have anything to commit (git status)
+2. then $git push <host_URL> <branch_to_push>
+
+3) instead of writing everytime <host_URL>, we can make alias of repository,
+  $ git remote add <alias_name> <host_URL>
+  --> now, <alias_name> contain <host_URL>
+  Usually we make <alias_name> "origin"
+
+ Example: git remote add origin <host_URL>
+
+3.1) $ git remote -v // shows aliases 
+
+4) $ git pull origin <brName> // it'll merge remote <brName> into our current branch 
+   // that's why we should BE AT CORRECT BRANCH WHEN PULLING
