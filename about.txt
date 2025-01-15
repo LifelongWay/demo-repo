@@ -1,0 +1,33 @@
+This is readme file of dm-repo
+
+Areas of file: modified | staged | committed
+
+
+"staged file" - file that is ready to be committed(i.e added)
+
+1) git status - lists files, 
+     s.t
+	 red - if waiting to be staged, 
+	 green if staged
+
+2) git add fileName - stage file
+2.1) git add . - stage ALL modified files to staging area 
+3) git rm --cached fileName -- remove file from staged
+
+4) git commit -m "<Message>" fileName
+5) git log  -- shows all different commits we have made
+   s.t showing long string unique commit id
+5.1) git log --oneline  // shows shortened one-lined commit history
+
+/// undoing ///
+
+1) checkout commit 
+// to show code at point of time when particular commit was done 
+// doesn't change commit history after checking out to earlier ones
+
+2) revert commit 
+
+3) reset commit 
+// takes you PERMANENTLY back in time to a particular commit
+// will delete all commits done later
+
