@@ -1,3 +1,5 @@
+#	GENERAL
+
 1) if we DON'T already have local repo, then need to clone.
    $ git clone <url_host>
    NOTE: cloning already creates alias with <host_URL> to <alias = "origin"> ( talked in (3) )
@@ -21,3 +23,32 @@
 
 4) $ git pull origin <brName> // it'll merge remote <brName> into our current branch 
    // that's why we should BE AT CORRECT BRANCH WHEN PULLING
+
+
+# 	MERGING AND PUSHING TO REMOTE
+
+1) if we created branch for making new feature to master,
+   we then merge to LOCAL master(main) the ready feature branch.
+   (DON't merge even local master !!!)
+
+2) HOWEVER, DON'T  merge localy and the push master.
+
+ INSTEAD, PUSH ONLY BRANCH with feature, so ALL DEVELOPER SHOULD DISCUSS whether to 
+ merge pushed branch to github.
+
+$ git push origin <branch_feature-x>
+
+// IN GITHUB YOU'LL see button to compare (i.e what branch adds to merge),
+ also many features (comment under what pull-request does)
+
+
+
+# 	IMPORTANT
+
+BEFORE MAKING ANY FEATURE, YOU NEED TO PULL MASTER BRANCH
+JUST IN CASE IF ANYONE HAS DONE ANY CHANGES
+
+ALSO, DON'T EDITR MASTER(MAIN) DIRECTLY, INSTEAD MAKE BRANCH, IN WHICH YOU WRITE 
+NEW FEATURE. THEN PUSH BRNACH TO REMOTE REPO.
+
+DON'T FORGET THAT PULLING IS MERGING INTO CURRENT BRANCH (EXPLAINED ABOVE)
