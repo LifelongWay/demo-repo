@@ -27,7 +27,9 @@ Areas of file: modified | staged | committed
 
 2) revert commit 
 
+
+
 3) reset commit 
 // takes you PERMANENTLY back in time to a particular commit
 // will delete all commits done later
-
+// used if don't need next ones
