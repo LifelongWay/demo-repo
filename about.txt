@@ -39,3 +39,10 @@ Areas of file: modified | staged | committed
 // NOTE: though all commits after <commit-id> are removed,
 // they are still present in unstaged area 
 // and still editors have same data, just everything is unstaged!
+
+// NOTE: good to combine commits into one
+
+3.1) reset <commit-id> --hard
+// will do same as reset, but now everything unstaged will be deleted
+// Now, editors lost all data after <commit-id>
+NOTE: WILL PERMANENTLY DELETE LATER COMMITS DATA
