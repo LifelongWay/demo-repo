@@ -19,3 +19,6 @@ master code. I.e you can try changing code, without affectign stable version.
 
 2) git branch -a // will show all branches (* means current branch)
 3) git checkout <branchName> // will move to branch with name <branchName>
+4) git branch -D <branchName> // to delete branch that's NOT MERGED
+
+5) git checkout -b <branchName> // will create branch and checkout to it simultaneously
