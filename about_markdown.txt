@@ -1,0 +1,50 @@
+* TITLES
+# - similar to <h1></h1>
+## - similar to <h2></h2>
+
+* ENUMERATION
+- is for "bullet enumeration"
+'tab' + '-' is for "sub-bullet enumeration"
+
+1.  is alphabetical enumeration
+
+* LINKS
+[linkdescription](url)
+
+* CODE PART highlight
+`...code...`
+
+* WHOLE CODE highlight
+```LanguageName
+
+...code...
+
+```
+
+example:
+```javascript
+let a = 12
+```
+
+* IMAGES
+
+![alt text](imgUrl/height/width)
+
+* BLOCK QUOUTES 
+> blockquote text
+
+* Tables
+
+| heading1 | heading2 | heading3 |
+| ...      |   ...    |   ...    |
+| content1 | content2 | content3 |
+
+NOTE: | ...      |   ...    |   ...    | is for separating headers from content
+
+
+* BOLD/ITALIC/STRIKETHROUGH 
+
+** - bold
+* - italic
+~~text~~ - strike thorugh
+
